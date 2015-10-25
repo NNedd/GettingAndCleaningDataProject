@@ -30,10 +30,10 @@ The steps used in creating the tidy data file were as follows:
 2.  The train data and test data were then merged.
 3.  Column labels were attached to the data
 4.  The columns that corresponded to mean and standard deviation values were then extracted.
-5.  Then the data was summarised.
+5.  Then the data was summarised.  Note that the wide format was used in generating the tidy data file
 
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
@@ -51,32 +51,74 @@ General description of the file including:
     LAYING
 
 The subject variable represents the individual that performed the activity.
-The other 66 variables represents various measurements while the subject was preforming the activity
+The other 66 variables represents various measurements while the subject was preforming the activity:
 
-- Variables present in the dataset are as follows:
- [1] "activity"                         "subject"                          "tbodyaccelerationmeanx"          
- [4] "tbodyaccelerationmeany"           "tbodyaccelerationmeanz"           "tgravityaccelerationmeanx"       
- [7] "tgravityaccelerationmeany"        "tgravityaccelerationmeanz"        "tbodyaccelerationjerkmeanx"      
-[10] "tbodyaccelerationjerkmeany"       "tbodyaccelerationjerkmeanz"       "tbodygyroscopemeanx"             
-[13] "tbodygyroscopemeany"              "tbodygyroscopemeanz"              "tbodygyroscopejerkmeanx"         
-[16] "tbodygyroscopejerkmeany"          "tbodygyroscopejerkmeanz"          "tbodyaccelerationmagmean"        
-[19] "tgravityaccelerationmagmean"      "tbodyaccelerationjerkmagmean"     "tbodygyroscopemagmean"           
-[22] "tbodygyroscopejerkmagmean"        "fbodyaccelerationmeanx"           "fbodyaccelerationmeany"          
-[25] "fbodyaccelerationmeanz"           "fbodyaccelerationjerkmeanx"       "fbodyaccelerationjerkmeany"      
-[28] "fbodyaccelerationjerkmeanz"       "fbodygyroscopemeanx"              "fbodygyroscopemeany"             
-[31] "fbodygyroscopemeanz"              "fbodyaccelerationmagmean"         "fbodybodyaccelerationjerkmagmean"
-[34] "fbodybodygyroscopemagmean"        "fbodybodygyroscopejerkmagmean"    "tbodyaccelerationstdx"           
-[37] "tbodyaccelerationstdy"            "tbodyaccelerationstdz"            "tgravityaccelerationstdx"        
-[40] "tgravityaccelerationstdy"         "tgravityaccelerationstdz"         "tbodyaccelerationjerkstdx"       
-[43] "tbodyaccelerationjerkstdy"        "tbodyaccelerationjerkstdz"        "tbodygyroscopestdx"              
-[46] "tbodygyroscopestdy"               "tbodygyroscopestdz"               "tbodygyroscopejerkstdx"          
-[49] "tbodygyroscopejerkstdy"           "tbodygyroscopejerkstdz"           "tbodyaccelerationmagstd"         
-[52] "tgravityaccelerationmagstd"       "tbodyaccelerationjerkmagstd"      "tbodygyroscopemagstd"            
-[55] "tbodygyroscopejerkmagstd"         "fbodyaccelerationstdx"            "fbodyaccelerationstdy"           
-[58] "fbodyaccelerationstdz"            "fbodyaccelerationjerkstdx"        "fbodyaccelerationjerkstdy"       
-[61] "fbodyaccelerationjerkstdz"        "fbodygyroscopestdx"               "fbodygyroscopestdy"              
-[64] "fbodygyroscopestdz"               "fbodyaccelerationmagstd"          "fbodybodyaccelerationjerkmagstd" 
-[67] "fbodybodygyroscopemagstd"         "fbodybodygyroscopejerkmagstd"    
+"tbodyaccelerationmeanx"          
+"tbodyaccelerationmeany"
+"tbodyaccelerationmeanz"
+"tgravityaccelerationmeanx"       
+"tgravityaccelerationmeany"
+"tgravityaccelerationmeanz"
+"tbodyaccelerationjerkmeanx"      
+"tbodyaccelerationjerkmeany"
+"tbodyaccelerationjerkmeanz"
+"tbodygyroscopemeanx"             
+"tbodygyroscopemeany"
+"tbodygyroscopemeanz"
+"tbodygyroscopejerkmeanx"         
+"tbodygyroscopejerkmeany"
+"tbodygyroscopejerkmeanz"
+"tbodyaccelerationmagmean"
+"tgravityaccelerationmagmean"
+"tbodyaccelerationjerkmagmean"
+"tbodygyroscopemagmean"           
+"tbodygyroscopejerkmagmean"
+"fbodyaccelerationmeanx"
+"fbodyaccelerationmeany"          
+"fbodyaccelerationmeanz"
+"fbodyaccelerationjerkmeanx"
+"fbodyaccelerationjerkmeany"      
+"fbodyaccelerationjerkmeanz"
+"fbodygyroscopemeanx"
+"fbodygyroscopemeany"             
+"fbodygyroscopemeanz"
+"fbodyaccelerationmagmean"
+"fbodybodyaccelerationjerkmagmean"
+"fbodybodygyroscopemagmean"
+"fbodybodygyroscopejerkmagmean"
+"tbodyaccelerationstdx"           
+"tbodyaccelerationstdy"
+"tbodyaccelerationstdz"
+"tgravityaccelerationstdx"        
+"tgravityaccelerationstdy"
+"tgravityaccelerationstdz"
+"tbodyaccelerationjerkstdx"       
+"tbodyaccelerationjerkstdy"
+"tbodyaccelerationjerkstdz"
+"tbodygyroscopestdx"              
+"tbodygyroscopestdy"
+"tbodygyroscopestdz"
+"tbodygyroscopejerkstdx"          
+"tbodygyroscopejerkstdy"
+"tbodygyroscopejerkstdz"
+"tbodyaccelerationmagstd"         
+"tgravityaccelerationmagstd"
+"tbodyaccelerationjerkmagstd"
+"tbodygyroscopemagstd"            
+"tbodygyroscopejerkmagstd"
+"fbodyaccelerationstdx"
+"fbodyaccelerationstdy"           
+"fbodyaccelerationstdz"
+"fbodyaccelerationjerkstdx"
+"fbodyaccelerationjerkstdy"       
+"fbodyaccelerationjerkstdz"
+"fbodygyroscopestdx"
+"fbodygyroscopestdy"              
+"fbodygyroscopestdz"
+"fbodyaccelerationmagstd"
+"fbodybodyaccelerationjerkmagstd" 
+"fbodybodygyroscopemagstd"
+"fbodybodygyroscopejerkmagstd"    
 
 
 
