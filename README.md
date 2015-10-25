@@ -19,3 +19,15 @@ You should create one R script called run_analysis.R that does the following.
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+##Additional Notes
+The training and test data sets were merged along with the training and test labels specifying which rows corresponded to the activity and which corresponded to the subject.  Column labels were also attached to the merged data.
+
+Only those column which contained the phrase "mean" and "std" were selected.
+
+The activity column values were converted to string.  Then replaced with the corresponding string label in activity_labels.txt.
+
+Appropriately labelling variable names were conducted by: 1. removing all instances of '-' with gsub.  2. Removing the '()'. 3. Replacing all instances of "Acc" with Acceleration. 4. Replacing all instances of "gyro" with gyroscope. 5. Turnning all text to lower case.
+
+The tidy data set was created by first group the data according to activity and subject then summarising the data by applying the mean function.  This created a wide format tidy dataset instead of the long format.
+
+Finally write.table() was used to create the tidyDataAssignment.txt file containing the tidy data.
