@@ -50,8 +50,8 @@ General description of the file including:
     STANDING
     LAYING
 
-The subject variable represents the individual that performed the activity.
-The other 66 variables represents various measurements while the subject was preforming the activity:
+ The subject variable represents the individual that performed the activity.
+ The other 66 variables represents various measurements while the subject was preforming the activity:
 
 "tbodyaccelerationmeanx"          
 "tbodyaccelerationmeany"
