@@ -42,7 +42,8 @@ General description of the file including:
  The dataset contains 68 variabes with 180 rows of data.
 
  - Summary of the data
- The first variable Activity represents what activity took place: 
+ 
+The first variable Activity represents what activity took place: 
     WALKING
     WALKING_UPSTAIRS
     WALKING_DOWNSTAIRS
@@ -51,7 +52,8 @@ General description of the file including:
     LAYING
 
  The subject variable represents the individual that performed the activity.
- The other 66 variables represents various measurements while the subject was preforming the activity:
+
+The other 66 variables represents various measurements while the subject was preforming the activity:
 
 "tbodyaccelerationmeanx"          
 "tbodyaccelerationmeany"
@@ -122,9 +124,3 @@ General description of the file including:
 
 
 
-
-##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
